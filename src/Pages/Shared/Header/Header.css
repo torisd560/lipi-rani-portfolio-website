@@ -15,7 +15,7 @@
 }
 .custom-nav a:focus{
     color: #64ffda;
-    border-top: 1px solid #28a745;
+    border-bottom: 1px solid #28a745;
 }
 .navbarBrand{
     font-size: 40px;

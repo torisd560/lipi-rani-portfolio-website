@@ -6,6 +6,7 @@ import Works from '../src/Pages/Works/Works'
 import Contact from '../src/Pages/Contact/Contact'
 import NotFound from '../src/Pages/NotFound/NotFound'
 import Header from './Pages/Shared/Header/Header';
+import Footer from './Pages/Shared/Footer/Footer';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
             </Routes>
           </div>
         </div>
+        <Footer></Footer>
       </BrowserRouter>
     </div >
   );

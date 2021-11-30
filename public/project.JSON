@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "title": "Drone Store",
+        "description": "A single-page drones-product-based web app with a dashboard and authenticationsystem. Where users can buy drone products and manage their orders and review our products.Admin can manage products and manage all orders. Admin approved orders Then users purchase a product.",
+        "technology": [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "React-bootstrap",
+            "React-hook-form",
+            "Firebase-Authentication",
+            "React-Router"
+        ],
+        "img": "https://i.ibb.co/wLvwhm7/drone-store.png",
+        "github": "https://github.com/torisd560/Drone-Shop-Client--side",
+        "live_link": "https://drone-store-33087.web.app/"
+    },
+    {
+        "id": 2,
+        "title": "Travenu Tourism Website",
+        "description": "A single-page tourism-based web app with a simple dashboard and authentication system. Where people can book the tour service that we provide. People can manage their booking orders.",
+        "technology": [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            " MongoDB",
+            "React-bootstrap",
+            "React-hook-form",
+            "Firebase-Authentication",
+            "React-Router"
+        ],
+        "img": "https://i.ibb.co/R4Nb8yP/travenu.png",
+        "github": "https://github.com/torisd560/travenu-client-side",
+        "live_link": "https://travel-authentication-b244d.web.app/"
+    },
+    {
+        "id": 3,
+        "title": "Female Care",
+        "description": "A simple dynamic healthcare website with a login system. Where females can make an appointment Gynecology doctors prescribe to the patients.",
+        "technology": [
+            "React.js",
+            "React-bootstrap",
+            "Firebase-Authentication",
+            "React-Router"
+        ],
+        "img": "https://i.ibb.co/ykLxkMc/female-care-1.png",
+        "github": "https://github.com/torisd560/Female-Care-Website",
+        "live_link": "https://healthcare-firebase-auth.web.app/"
+    }
+]

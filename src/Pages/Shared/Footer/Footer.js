@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <h1>This is footer</h1>
+            <p className = 'text-center pt-5 text-success'> Copyright © 2021 | mady by Lipi Rani</p>
         </div>
     );
 };

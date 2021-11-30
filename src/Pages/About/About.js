@@ -10,7 +10,7 @@ const About = () => {
                 <div className="col-md-6 ">
                     <img src={lipiImage} alt="" className='img-fluid rounded-circle mb-3' style={{ width: '200px' }} />
                     <h2><span style={{ color: '#64ffda' }}>I'm </span> Lipi Rani</h2>
-                    <p className='mt-3'>I'm a Junior web developer. To work in the Software industry with modern web technologies of different local & multinational Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
+                    <p className='mt-3'>I'm a junior web developer . A hard working self-motivated and enthusiastic web developer with a deep interest in JavaScript ,as well as the ability to communicate effectively in a team setting, and possessing a strong willingness to learn about modern web technologies .</p>
                 </div>
                 <div className="col-md-6">
                     <h1 className='text-center mb-5'>My <span style={{ borderBottom: '1px solid #64ffda' }}>Skills</span></h1>
