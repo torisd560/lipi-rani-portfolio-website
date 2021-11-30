@@ -16,7 +16,7 @@ const Works = () => {
         <div>
             <h1 className='text-center'>My <span style={{ borderBottom: '1px solid #64ffda' }}> Works</span></h1>
             <Container>
-                <Row xs={1} md={3} className="g-4 my-5">
+                <Row xs={1} md={3} className="g-4 my-5 mx-0">
                     {
                         projects.map(project => <Work project={project} key={project.id}></Work>)
                     }

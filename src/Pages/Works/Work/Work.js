@@ -7,16 +7,16 @@ const Work = ({ project }) => {
     console.log(technology)
     return (
         <div >
-            <Col>
+            <Col className='project-card h-100'>
                 <CardGroup>
-                    <Card className='project-card h-100'>
+                    <Card style = {{backgroundColor : 'rgb(23, 42, 69)'}}>
                         <Card.Img variant="top" src={img} className='img-fluid' style={{ height: '200px' }} />
                         <Card.Body className='p-3'>
                             <Card.Title >{title}</Card.Title>
                             <Card.Text className='my-3' style={{ fontSize: '15px' }}>{description}</Card.Text>
-                            <div className = 'my-skills'>
+                            <div className='my-skills'>
                                 {
-                                    technology.map(th => <span>{th}</span> )
+                                    technology.map(th => <span>{th}</span>)
                                 }
                             </div>
                         </Card.Body>

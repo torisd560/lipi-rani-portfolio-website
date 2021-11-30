@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom'
 import './Home.css'
 import Works from '../Works/Works'
 import Contact from '../Contact/Contact'
+import { Container } from 'react-bootstrap';
 
 const Home = () => {
     return (
-        <div>
+        <Container>
             <div className="row m-0 my-5">
                 <div className="col-md-7 mt-5">
                     <div className='text-start p-5 lh-sm'>
@@ -24,7 +25,7 @@ const Home = () => {
                 <Works></Works>
                 <Contact></Contact>
             </div>
-        </div>
+        </Container>
     );
 };
 
