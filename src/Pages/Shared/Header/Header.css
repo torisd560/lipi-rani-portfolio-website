@@ -1,5 +1,23 @@
-.resume-btn a{
- color: aliceblue;
- text-decoration: none;
- font-weight: 600;
+.resume-btn{
+    color: #28a745;
+    border: 1px solid #28a745;
+    text-decoration: none;
+    padding: 5px  10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.resume-btn:hover{
+    background-color: #28a745;
+    color: aliceblue;
+}
+.custom-nav a{
+    margin-right: 30px;
+}
+.custom-nav a:focus{
+    color: #64ffda;
+    border-top: 1px solid #28a745;
+}
+.navbarBrand{
+    font-size: 40px;
+    font-weight: bold;
 }
