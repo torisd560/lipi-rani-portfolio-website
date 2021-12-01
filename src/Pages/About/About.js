@@ -17,7 +17,7 @@ const About = () => {
                     <h1 className='text-center mb-5'>My <span style={{ borderBottom: '1px solid #64ffda' }}>Skills</span></h1>
                     <div>
                         <h5 className='skills-title'>Comfortable</h5>
-                        <div className='my-skills'>
+                        <div className='technology'>
                             <span>HTML5</span>
                             <span>CSS3</span>
                             <span>Bootstrap5</span>
@@ -34,7 +34,7 @@ const About = () => {
                     </div>
                     <div className='my-5'>
                         <h5 className='skills-title '>Familiar</h5>
-                        <div className='my-skills'>
+                        <div className='technology'>
                             <span>Material UI</span>
                             <span>TypeScript</span>
                             <span>Node.js</span>
@@ -45,7 +45,7 @@ const About = () => {
                     </div>
                     <div>
                         <h5 className='skills-title '>Tools</h5>
-                        <div className='my-skills'>
+                        <div className='technology'>
                             <span>Git</span>
                             <span>Create React App</span>
                             <span>NPM</span>

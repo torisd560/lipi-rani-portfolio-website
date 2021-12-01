@@ -14,7 +14,7 @@ const Work = ({ project }) => {
                         <Card.Body className='p-3'>
                             <Card.Title >{title}</Card.Title>
                             <Card.Text className='my-3' style={{ fontSize: '15px' }}>{description}</Card.Text>
-                            <div className='my-skills'>
+                            <div className='technology'>
                                 {
                                     technology.map(th => <span>{th}</span>)
                                 }

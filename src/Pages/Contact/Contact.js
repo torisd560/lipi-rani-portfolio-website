@@ -20,7 +20,7 @@ export const Contact = () => {
         <div className="row">
             <div className="col-md-3"></div>
             <div className="col-md-6">
-                <div className='text-center' style={{ marginTop: '70px' }}>
+                <div className='text-center' style={{ marginTop: '60px' }}>
                     <h1 className='text-center mb-5'>Get In <span style={{ borderBottom: '1px solid #64ffda' }}>Touch</span></h1>
                     <div>
                         <form onSubmit={sendEmail} className='contact-form mb-5 p-5'>

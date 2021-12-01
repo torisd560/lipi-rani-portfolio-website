@@ -2,16 +2,15 @@
     color: #64ffda;
 }
 
-.my-skills{
+.technology{
     display: flex;
     flex-wrap: wrap;
 }
-.my-skills span{
+.technology span{
     background-color: rgb(99, 106, 112);
     color: whitesmoke;
-    margin-right: 5px;
-    margin-top: 5px;
-    padding: 3px 5px;
+    margin: 5px;
+    padding: 0  8px;
     border-radius: 2px;
     font-size: 14px;
     height: 25px;
