@@ -14,7 +14,7 @@ const Home = () => {
                         <p style={{ color: '#64ffda' }}>Hello , I'm</p>
                         <h1>Lipi Rani</h1>
                         <p className='my-3' style={{ color: '#64ffda' }}>Junior Web developer</p>
-                        <p >I'm a junior web developer . A hard working self-motivated and enthusiastic web developer with a deep interest in JavaScript ,as well as the ability to communicate effectively in a team setting, and possessing a strong willingness to learn about modern web technologies .</p>
+                        <p >I'm a Junior web developer. For the last 6 months, I’ve been working and learning about web development. As a programmer, I love taking on challenges and love being part of the solution. My hobby is keeping myself updated with all the latest technologies and tools.</p>
                         <Link to='/about'>
                             <button className='custom-btn mt-3'>About Me</button>
                         </Link>

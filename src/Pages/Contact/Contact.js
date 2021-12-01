@@ -18,22 +18,24 @@ export const Contact = () => {
     };
     return (
         <div className="row">
-            <div className="col-md-12 ">
-                <div className='text-center' style={{ marginTop: '150px' }}>
-                    <h1 className='text-center'>Get In <span style={{ borderBottom: '1px solid #64ffda' }}>Touch</span></h1>
+            <div className="col-md-3"></div>
+            <div className="col-md-6">
+                <div className='text-center' style={{ marginTop: '70px' }}>
+                    <h1 className='text-center mb-5'>Get In <span style={{ borderBottom: '1px solid #64ffda' }}>Touch</span></h1>
                     <div>
-                        <form onSubmit={sendEmail} className='contact-form mb-5 py-5'>
-                            <input type="text" name="name" placeholder='Name' />
+                        <form onSubmit={sendEmail} className='contact-form mb-5 p-5'>
+                            <input type="text" name="name" placeholder='Name' className=' w-100' />
                             <br />
-                            <input type="email" name="email" placeholder='Email' />
+                            <input type="email" name="email" placeholder='Email' className=' w-100' />
                             <br />
-                            <textarea name="message" placeholder='Message' />
+                            <textarea name="message" placeholder='Message' className=' w-100' />
                             <br />
-                            <input style={{ backgroundColor: '#28a745', color: '#fff' }} type="submit" value="Send" />
+                            <input style={{ backgroundColor: '#28a745', color: '#fff' }} type="submit" value="Send" className=' w-100' />
                         </form>
                     </div>
                 </div>
             </div>
+            <div className="col-md-3"></div>
         </div>
     );
 };

@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="transparent" variant="transparent">
+            <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">
                 <Container>
-                    <Navbar.Brand className='navbarBrand'>L</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" className = 'text-white' />
+                    <Navbar.Brand className='navbarBrand text-white'>L</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" className = 'bg-white' />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto custom-nav align-items-center">
                             <Nav.Link as={Link} to="/home" style={{ color: '#dde1e7' }}>Home</Nav.Link>
