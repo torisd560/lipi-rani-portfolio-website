@@ -5,22 +5,16 @@ import { Link } from 'react-router-dom';
 
 
 const Work = ({ project }) => {
-    const { title, description, img, github, live_link, technology } = project
-    console.log(technology)
+    const { title, img, github, live_link } = project
+
     return (
         <div >
             <Col className='project-card h-100'>
                 <CardGroup>
                     <Card style={{ backgroundColor: 'rgb(23, 42, 69)' }}>
-                        <Card.Img variant="top" src={img} className='img-fluid' style={{ height: '200px' }} />
+                        <Card.Img variant="top" src={img} className='img-fluid' style={{ height: '300px' }} />
                         <Card.Body className='p-3'>
                             <Card.Title >{title}</Card.Title>
-                            <Card.Text className='my-3' style={{ fontSize: '15px' }}>{description}</Card.Text>
-                            <div className='technology'>
-                                {
-                                    technology.map(th => <span>{th}</span>)
-                                }
-                            </div>
                         </Card.Body>
                         <Card.Footer>
                             <div className='d-flex justify-content-between'>
