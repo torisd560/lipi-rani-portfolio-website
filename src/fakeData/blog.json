@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "CSS Flexbox Layout",
+        "img": "https://i.ibb.co/jgKTX4Q/css.png",
+        "blog_link": "https://lipirani665.medium.com/my-first-article-about-css-flex-layout-501e27d8b8d4"
+    },
+    {
+        "id": 2,
+        "title": "JavaScript String Methods",
+        "img": "https://i.ibb.co/hF73sfd/js-2.png",
+        "blog_link": "https://lipirani665.medium.com/javascript-string-methods-3d105c6022e9"
+    },
+    {
+        "id": 3,
+        "title": "JavaScript Some Interesting Concept",
+        "img": "https://i.ibb.co/swtVf95/js.png",
+        "blog_link": "https://lipirani665.medium.com/javascript-some-important-concept-110e5b98ee18"
+    },
+    {
+        "id": 4,
+        "title": "React Some Important Concept",
+        "img": "https://i.ibb.co/0KDpTgy/react.png",
+        "blog_link": "https://lipirani665.medium.com/react-some-important-concept-60fa966209d3"
+    },
+    {
+        "id": 5,
+        "title": "Some BackEnd Technology ",
+        "img": "https://i.ibb.co/XS0hr90/backend.png",
+        "blog_link": ""
+    }
+]
