@@ -3,7 +3,7 @@ import './Header.css'
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import logoImg from '../../../images/lipi-logo.png'
+import logoImg from '../../../images/lipi_logo.png'
 
 const Header = () => {
     return (
@@ -11,7 +11,7 @@ const Header = () => {
             <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">
                 <Container>
                     <Navbar.Brand className='navbarBrand text-white'>
-                        <img src={logoImg} alt="logo.png" style={{width : '100px'}} />
+                        <img src={logoImg} alt="logo.png" style={{ width: '120px' }} />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className='bg-white' />
                     <Navbar.Collapse id="responsive-navbar-nav">
