@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css'
-import lipiImage from '../../images/portfolio.jpg'
+import lipiImage from '../../images/Lipi.png'
 import { Container } from 'react-bootstrap';
 
 const About = () => {
@@ -10,7 +10,7 @@ const About = () => {
                 <div className="col-md-6 ">
                     <img src={lipiImage} alt="" className='img-fluid rounded-circle mb-3' style={{ width: '200px' }} />
                     <h2><span style={{ color: '#64ffda' }}>I'm </span> Lipi Rani</h2>
-                    <p className='mt-3'>I'm a Junior web developer. For the last 6 months, I’ve been working and learning about web development. I have worked on different types of web pages. Many different types of web technologies have been but I  prefer to work with HTML, CSS, Bootstrap, JavaScript, React.js, Express.js, MongoDB, and  Rest API. As a programmer, I love taking on challenges and love being part of the solution. My hobby is keeping myself updated with all the latest technologies and tools.
+                    <p className='mt-3'>I'm a Junior web developer. I’ve been working and learning about web development. I have worked on different types of web pages. Many different types of web technologies have been but I  prefer to work with HTML, CSS, Bootstrap, JavaScript, React.js, Express.js, MongoDB, and  Rest API. As a programmer, I love taking on challenges and love being part of the solution. My hobby is keeping myself updated with all the latest technologies and tools.
                     </p>
                 </div>
                 <div className="col-md-6">

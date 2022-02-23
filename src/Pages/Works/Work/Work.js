@@ -23,7 +23,7 @@ const Work = ({ project }) => {
 
                                     <a className='ms-3' target='_blank' rel='noreferrer' href={live_link}><i className="fas fa-external-link-alt fs-5" style={{ color: '#64ffda' }}></i></a>
                                 </span>
-                                <Link to='/work'>
+                                <Link to='/projectDetails'>
                                     <Button variant="outline-success">Details</Button>
                                 </Link>
                             </div>

@@ -7,22 +7,25 @@ import Header from './Pages/Shared/Header/Header';
 import Footer from './Pages/Shared/Footer/Footer';
 import Blog from './Pages/Blog/Blog';
 import ProjectDetail from '../src/Pages/ProjectDetail/ProjectDetail'
+import Contact from './Pages/Contact/Contact';
 
 
 function App() {
   return (
     <div className='App'>
       <BrowserRouter>
-        <Header></Header>
+        <Header />
         <Routes>
-          <Route path='/' element={<Home></Home>} />
-          <Route path='home' element={<Home></Home>} />
-          <Route path='about' element={<About></About>} />
-          <Route path='work' element={<ProjectDetail></ProjectDetail>} />
-          <Route path='blog' element={<Blog></Blog>} />
-          <Route path='*' element={<NotFound></NotFound>} />
+          <Route path='/' element={<Home />} />
+          <Route path='home' element={<Home />} />
+          <Route path='about' element={<About />} />
+          <Route path='projectDetails' element={<ProjectDetail />} />
+          <Route path='work' element={<ProjectDetail />} />
+          <Route path='blog' element={<Blog />} />
+          <Route path='contact' element={<Contact />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
-        <Footer></Footer>
+        <Footer />
       </BrowserRouter>
     </div >
   );

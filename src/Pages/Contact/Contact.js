@@ -17,7 +17,7 @@ export const Contact = () => {
         e.target.reset()
     };
     return (
-        <div className="row">
+        <div className="row " id = "contact"> 
             <div className="col-md-3"></div>
             <div className="col-md-6">
                 <div className='text-center' style={{ marginTop: '60px' }}>
