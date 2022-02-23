@@ -3,7 +3,7 @@ import './Header.css'
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import logoImg from '../../../images/lipi-logo.jpg'
+import logoImg from '../../../images/lipi-logo.png'
 
 const Header = () => {
     return (
